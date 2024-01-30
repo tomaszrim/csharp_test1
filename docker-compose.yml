@@ -1,0 +1,9 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP.NET Core service.
+
+version: '1.0'
+
+services:
+  webapplication1:
+    image: webapi1
+    ports:
+      - 5001:8080
